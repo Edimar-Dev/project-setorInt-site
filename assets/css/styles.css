@@ -66,15 +66,18 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+
 .container-quem-somos .servicos .icone {
     margin-bottom: 10px;
 }
+
 .container-quem-somos .servico-texto {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20px;
     font-size: 1.2em;
     color: #81c4ff;
 }
+
 .container-quem-somos .servico-texto-realce {
     color: white;
     font-weight: bold;
@@ -104,11 +107,40 @@ body {
     margin: 10px auto;
     border-radius: 10px;
 }
+
 .botoes-servicos-contactos a:hover {
     background-color: white;
     color: black;
 }
 
+/*----------------------------------------*/
+.container-servicos {
+    background-color: #05192a;
+    font-size: 1.1;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-servicos h3 {
+    color: #2097ff;
+    padding: 20px 0;
+}
+.container-servicos article {
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+.container-servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
 /*----------------------------------------*/
 footer {
     text-align: center;
